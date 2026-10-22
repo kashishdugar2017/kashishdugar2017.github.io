@@ -1,0 +1,18 @@
+title: "My Coding Journey"
+tagline: "A nine year old's journey to the systems level"
+author: "Kashish Dugar"
+email: kashishdugar2017@gmail.com
+description: "I'm Kashish. I'm 9. I build real things with Python and I'm going deeper every day. This is my log."
+github_username: kashishdugar2017
+url: "https://kashishdugar2017.github.io"
+theme: minima
+show_excerpts: true
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    - platform: github
+      user_url: "https://github.com/kashishdugar2017"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
