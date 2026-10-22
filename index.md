@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: deafault
 title: "Hi, I am Kashish"
 ---
 
