@@ -5,7 +5,7 @@ email: kashishdugar2017@gmail.com
 description: "I'm Kashish. I'm 9. I build real things with Python and I'm going deeper every day. This is my log."
 github_username: kashishdugar2017
 url: "https://kashishdugar2017.github.io"
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
