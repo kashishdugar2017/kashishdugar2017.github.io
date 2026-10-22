@@ -1,0 +1,52 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Dark hacker vibe EVERYWHERE */
+body {
+  background: #151515 !important;
+  color: #b5e853 !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+#main_content, #header_wrap, #footer_wrap, .inner {
+  background: #151515 !important;
+  color: #b5e853 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #b5e853 !important;
+  text-shadow: 0 0 10px rgba(181, 232, 83, 0.3);
+}
+
+p, li {
+  color: #d0d0d0 !important;
+}
+
+a, a:visited {
+  color: #63c0f5 !important;
+}
+
+a:hover {
+  color: #b5e853 !important;
+  text-shadow: 0 0 5px rgba(181, 232, 83, 0.5);
+}
+
+code, pre {
+  background: #0a0a0a !important;
+  color: #b5e853 !important;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+
+blockquote {
+  border-left: 4px solid #b5e853;
+  color: #999 !important;
+}
+
+hr {
+  border-color: #b5e853;
+  border-style: dashed;
+}
