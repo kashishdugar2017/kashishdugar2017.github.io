@@ -43,3 +43,5 @@ BIG IDEA: A flashlight is binary. ON or OFF. Just like Morse (dot/dash), Braille
 ## What is next
 
 Grokking Chapter 5 (Hash Tables) tomorrow. Still reading Uncle Tungsten.
+
+future:true
