@@ -7,9 +7,10 @@ title: My Coding Journey
 
 I am 9 years old. I am a software developer and a competitive swimmer. I live in Kochi, India.
 
-I build real desktop apps, games, and web backends using Python. Right now I am learning algorithms from **Grokking Algorithms** and reading **Code** by Charles Petzold to understand how computers work from the ground up. In January 2027 I am starting Rust.
+I build real desktop apps, games, and web backends using Python And now Rust. I have finished `Grokking Algorithms`! Now i am Learning Rust using the book `The Rust Programming Language` and reading `Code by Charles Petzold`. I am also reviewing existing codebases once a week
 
-This blog is my daily learning log — one post per day from the end of my 2.5 hour programming session.
+
+This blog is my daily learning log — one post per day from the end of my programming session.
 
 My GitHub: [kashishdugar2017](https://github.com/kashishdugar2017)
 
