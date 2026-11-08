@@ -7,7 +7,7 @@ title: My Coding Journey
 
 I am 9 years old. I am a software developer and a competitive swimmer. I live in Kochi, India.
 
-I build real desktop apps, games, and web backends using Python And now rust. I have finished **Grokking Algorithms**! Now i am Learning rust using the book `The Rust Programming Language` and reading `code by charles petzold` And i am also reviewing existing codebases once a week
+I build real desktop apps, games, and web backends using Python And now Rust. I have finished `Grokking Algorithms`! Now i am Learning Rust using the book `The Rust Programming Language` and reading `Code by Charles Petzold`. I am also reviewing existing codebases once a week
 
 
 This blog is my daily learning log — one post per day from the end of my programming session.
