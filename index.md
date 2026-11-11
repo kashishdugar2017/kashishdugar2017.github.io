@@ -13,7 +13,7 @@ This blog is my daily learning log — one post per day from the end of my progr
 
 My GitHub: [kashishdugar2017](https://github.com/kashishdugar2017)
 
-🌙Moonlight, Building with papa and muma and agastya later:  [Moonlight Build Log](kashishdugar2017.github.io/moonlight)
+🌙Moonlight, Building with papa and muma and agastya later, for the startup buildathon:  [Moonlight Build Log](kashishdugar2017.github.io/moonlight)
 
 ---
 
