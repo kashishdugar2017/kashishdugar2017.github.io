@@ -12,6 +12,7 @@ I'm learning how computers work from the inside out, from algorithms down to the
 This blog is my daily learning log — one post per day from the end of my programming session.
 
 My GitHub: [kashishdugar2017](https://github.com/kashishdugar2017)
+
 🌙 [Moonlight Build Log](/moonlight/): building Moonlight with Papa for the Startup Buildathon
 ---
 
