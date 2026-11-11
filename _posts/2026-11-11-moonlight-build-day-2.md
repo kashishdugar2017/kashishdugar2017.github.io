@@ -2,6 +2,7 @@
 layout: post
 title: "Moonlight Build Day 2 - My Paper Graph Is the Answer Key"
 date: 2026-11-11
+category: moonlight
 description: "I drew the real data on paper, sorted 40 medicines by my own rules, and merged three pull requests."
 ---
 
