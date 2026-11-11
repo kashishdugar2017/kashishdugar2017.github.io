@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: default
 title: Moonlight Build Log
+permalink: /moonlight/
 ---
 
+# 🌙 Moonlight Build Log
+
 {% for post in site.categories.moonlight %}
-- {{ post.date | date: "%b %-d, %Y" }}: [{{ post.title }}]({{ post.url | relative_url }})
+- **{{ post.date | date: "%b %-d, %Y" }}** — [{{ post.title }}]({{ post.url }})
 {% endfor %}
