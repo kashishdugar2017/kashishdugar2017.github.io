@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Moonlight Build Day 12, Sprint #2 - We Marked Our Own Homework"
+date: 2026-11-24
+category: moonlight
+description: "Moonlight got a new home, a new sentence on every clue, and its first report card: 81 in 100 Approved cards match their official label. I am taking a short break to learn Rust, and Papa is doing most of the work."
+---
+
+*Moonlight Build Log: Papa and I are building [Moonlight](https://github.com/Moonlight-Clues/moonlight) with AI agents. I am the tech lead. I make the decisions and check the work. The agents write the code.*
+
+Today Moonlight got a new home, a new sentence on every clue, and its first report card.
+
 # Moonlight Build Day 12, Sprint #2 - We Marked Our Own Homework
 
 Today Moonlight got a new home, a new sentence on every clue, and its first report card.
