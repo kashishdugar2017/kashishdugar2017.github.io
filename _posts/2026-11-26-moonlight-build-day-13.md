@@ -1,25 +1,19 @@
 ---
-layout: post
-title: "Moonlight Build Day 13, Sprint #2 - The Night the Robots Did the Reading"
+title: "Moonlight Build Day 13 - The Night the Robots Did the Reading"
 date: 2026-11-26
-category: moonlight
 ---
 
-# Moonlight Build Day 13, Sprint #2 - The Night the Robots Did the Reading
+# Moonlight Build Day 13 - The Night the Robots Did the Reading
 
-Day 12 ended at Change 76. This post starts at Change 77 and ends at Change 109. That is thirty-three changes, all listed in the table at the end, in about a day and a night. I did not write any of them. I am still on my break. But I decided things, and I will tell you how that works.
+Day 12 ended at Change 76. This post starts at Change 77 and ends at Change 109. That is thirty-three changes, all listed in the table at the end, in one 36-hour block. I did not write any of them. I am still on my break. But I decided things, and I will tell you how that works.
 
-**Still on a break.** 
-Papa is running the sprint. When a question needs my answer, he asks me, I decide, and I sign a sheet the next evening so there is a record. On Wednesday night there were seventeen such decisions. Nothing with my words on it goes on the site until it has been on my sheet.
+**Still on a break.** Papa is running the sprint. When a question needs my answer, he asks me, I decide, and I sign a sheet the next evening so there is a record. On Wednesday night there were seventeen such decisions. Nothing with my words on it goes on the site until it has been on my sheet.
 
-**How an agentic sprint works.** 
-Papa does not write the code either. One AI plans the work and writes a ticket. Another AI builds it. The planner then checks the build on its own: it runs every test, reads every changed line of the old tests, and looks at the page at phone width. Only when it writes "you may merge" does the change go in. A third AI helper then opens the live site and reports what it sees. Papa sits in the middle, like a station master with a very long timetable.
+**How an agentic sprint works.** Papa does not write the code either. One AI plans the work and writes a ticket. Another AI builds it. The planner then checks the build on its own: it runs every test, reads every changed line of the old tests, and looks at the page at phone width. Only when it writes "you may merge" does the change go in. A third AI helper then opens the live site and reports what it sees. Papa sits in the middle, like a station master with a very long timetable.
 
-**Wednesday, daytime.** 
-Sixty-two medicines got a red warning after an overnight label check. Every card got a "Report" link, so anyone can tell us a card is wrong. Clue cards now show a line about the gene evidence. The printed page now matches the screen. Pages load faster. Twenty-three source links that opened the wrong label now open the right one. And when a maker or a regulator has withdrawn a medicine, the card can now say so in a grey line that we write by hand, from a source we have read.
+**Wednesday, daytime.** Sixty-two medicines got a red warning after an overnight label check. Every card got a "Report" link, so anyone can tell us a card is wrong. Clue cards now show a line about the gene evidence. The printed page now matches the screen. Pages load faster. Twenty-three source links that opened the wrong label now open the right one. And when a maker or a regulator has withdrawn a medicine, the card can now say so in a grey line that we write by hand, from a source we have read.
 
-**Wednesday night.** 
-This was the big one: fourteen changes between dinner and half past one.
+**Wednesday night.** This was the big one: fourteen changes between dinner and half past one.
 
 - A trial card now opens a study of its own disease. Before, it could open a study of a different disease, which is like a library book with the wrong cover.
 - "Source record" on fifty-four cards now opens the medicine's own label, not a combination product's.
@@ -31,11 +25,9 @@ This was the big one: fourteen changes between dinner and half past one.
 - Aducanumab shows its withdrawal on the Alzheimer page. Two older diabetes medicines say "Its approval was withdrawn in the US. It may still be sold elsewhere."
 - Typing "multiple sclerosis" now lands on a page headed the way you typed it.
 
-**Thursday morning.** 
-The helper checked the live site at seven. Then it read all ninety main-list cards on our ten audited diseases against their own labels. One opened the wrong product (a combination tablet) and one link was broken. Change 109 fixed both before breakfast. Now eighty of the ninety match their own label, none is wrong, and ten are "unsure". The ten are judgement calls, like an insulin label that says "diabetes" but not "type 2". Those come to my sheet tonight.
+**Thursday morning.** The helper checked the live site at seven. Then it read all ninety main-list cards on our ten audited diseases against their own labels. One opened the wrong product (a combination tablet) and one link was broken. Change 109 fixed both before breakfast. Now eighty of the ninety match their own label, none is wrong, and ten are "unsure". The ten are judgement calls, like an insulin label that says "diabetes" but not "type 2". Those come to my sheet tonight.
 
-**What went wrong.** 
-Two things, and we would rather say them ourselves. The planner AI promised to keep reading labels overnight and then did nothing for five hours, because nobody had woken it up. It now sets itself alarms. And it told the checker to expect three things on the live site that were its own mistakes. The site was right; the planner was wrong.
+**What went wrong.** Two things, and we would rather say them ourselves. The planner AI promised to keep reading labels overnight and then did nothing for five hours, because nobody had woken it up. It now sets itself alarms. And it told the checker to expect three things on the live site that were its own mistakes. The site was right; the planner was wrong.
 
 **The big study.** On Day 12 we checked 50 diseases. Overnight we checked a lot more: a sample of 4,631 "Approved" cards across 1,313 disease pages. A computer program read the official label for each pair and asked one question: does this label say the medicine is for this disease?
 
@@ -43,11 +35,9 @@ Where a label was read, it at least partly supports the pairing for about 83 in 
 
 This is not an accuracy score, and it is not a count of mistakes. No doctor has checked the program's work yet. The program said "not found" for 633 cards, and a quick check of 18 of those found at least 3 were false alarms: the medicine was approved, but in Japan or the UK, and the program mostly reads American labels. So the program can be fooled, and the paper says so on page one.
 
-**The paper.** 
-We are writing this up as a short paper for Zenodo, a public library for research, so that anyone can check our method and our files. Its title is "Do the labels agree? A machine-read check of 4,631 'Approved' medicine cards in Moonlight, built on Open Targets 26.09". Version 1.1 will add doctors checking a sample by hand, and labels from Japan, the UK and Europe.
+**The paper.** We are writing this up as a short paper for Zenodo, a public library for research, so that anyone can check our method and our files. Its title is "Do the labels agree? A machine-read check of 4,631 'Approved' medicine cards in Moonlight, built on Open Targets 26.09". Version 1.1 will add doctors checking a sample by hand, and labels from Japan, the UK and Europe.
 
-**What Moonlight is becoming.** 
-We set out to build a place to look for clues. It is turning into a place that checks whether the map everyone uses is right, and says honestly where it is not sure. Our hope is simple: that a doctor, a parent or a scientist who opens a disease page can trust what is under "Approved", and that every mistake we find gets fixed for everyone who uses the same data, not only for us.
+**What Moonlight is becoming.** We set out to build a place to look for clues. It is turning into a place that checks whether the map everyone uses is right, and says honestly where it is not sure. Our hope is simple: that a doctor, a parent or a scientist who opens a disease page can trust what is under "Approved", and that every mistake we find gets fixed for everyone who uses the same data, not only for us.
 
 **Everything that went live since Day 12.**
 
